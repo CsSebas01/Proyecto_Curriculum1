@@ -11,36 +11,42 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
     <link rel="stylesheet" href="assets/css/johndoe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <header class="header">
-        <div class="container">
-            <!-- Redes sociales principales -->
-            <ul class="social-icons pt-3">
+    <!-- Modificar solo las clases dentro del header existente -->
+<header class="header">
+    <div class="container">
+        <ul class="social-icons pt-3">
                 <li class="social-item">
-                    <a class="social-link text-light" href="https://www.linkedin.com/in/sebastian-escobar-8aa919338/" target="_blank" rel="noopener">
-                        <i class="ti-linkedin" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a class="social-link text-light" href="https://www.infojobs.net/candidate/cv/view/index.xhtml" target="_blank" rel="noopener">
-                        <i class="ti-info jobs" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a class="social-link text-light" href="https://github.com/CsSebas01" target="_blank" rel="noopener">
-                        <i class="ti-github" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>  
-            <div class="header-content">
-                <h4 class="header-subtitle">Hola, yo soy</h4>
-                <h1 class="header-title">Sebastián</h1>
-                <h1 class="header-title">Escobar</h1>
-                <h6 class="header-mono">Futuro Desarrollador de Aplicaciones Web</h6>
-            </div>
+                <a class="social-link" href="https://www.linkedin.com/in/sebastian-escobar-8aa919338/" target="_blank" rel="noopener">
+                    <i class="ti-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a class="social-link" href="https://www.infojobs.net/candidate/cv/view/index.xhtml" target="_blank" rel="noopener">
+                    <i class="ti-info" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a class="social-link" href="https://github.com/CsSebas01" target="_blank" rel="noopener">
+                    <i class="ti-github" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>  
+        <div class="header-content">
+            <h4 class="header-subtitle animate-typing">Hola, yo soy</h4>
+            <h1 class="header-title">
+                <span class="animate-slide-up">Sebastián</span>
+                <span class="animate-slide-up delay-200">Escobar</span>
+            </h1>
+            <h6 class="header-mono animate-fade-in">
+                <span>Futuro Desarrollador</span>
+                <span>de Aplicaciones Web</span>
+            </h6>
         </div>
-    </header>
+    </div>
+</header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -572,10 +578,12 @@
     </div>
     <!-- FIN Zona de contacto-->
 
-    <footer class="footer py-3">
+    <footer class="footer">
         <div class="container">
-            <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Creado por <i class="ti-heart text-danger"></i> <span class="text-danger" title="Bootstrap 4 Themes and Dashboards">SMEC</span>
+            <p class="mb-0">
+                &copy; <script>document.write(new Date().getFullYear())</script> 
+                Creado por <i class="ti-heart text-danger"></i> 
+                <span class="text-danger">SMEC</span>
             </p>
         </div>
     </footer>
@@ -585,9 +593,14 @@
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <!-- bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
+
+
     <!-- Isotope  -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
+
 </body>
 </html>
